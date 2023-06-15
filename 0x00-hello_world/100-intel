@@ -1,0 +1,4 @@
+#!/bin/bash
+CFILE="main.c"
+FILENAME=$(basename -- "$CFILE" .c)
+gcc -S -masm=intel "$CFILE" -o "$FILENAME.s"
