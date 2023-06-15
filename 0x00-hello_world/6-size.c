@@ -18,5 +18,5 @@ printf("Size of long double: %lu byte(s)\n", sizeof(long double));
 printf("Size of float: %lu byte(s)\n", sizeof(float));
 printf("Size of double: %lu byte(s)\n", sizeof(double));
 #endif
-return 0;
+return (0)
 }
